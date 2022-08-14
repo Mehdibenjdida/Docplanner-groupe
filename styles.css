@@ -1,0 +1,469 @@
+html body{
+background-color: white;
+margin: 0;
+ font-family: 'Roboto', sans-serif;
+
+position: relative;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100PX;
+    position: sticky;
+    top: 0;
+    border: 2px;
+    background-color: #fff;
+      
+}
+.logo{
+    width: 265px;
+    height: 33px;
+}
+
+.navigat{
+   width: 300px;
+    display: flex;
+    justify-content: space-between
+    ;  
+    align-items: center;
+    color:#747474;
+
+}
+.dropdown button{
+    background-color: transparent;
+    color: black;
+    width: fit-content;
+    border: none;
+    
+}
+
+.one{
+    display: flex;
+    justify-content:space-between;
+}
+ img{
+    width: 30px;
+    height: 30px;
+ }
+ li{
+    display: inline-block;
+     
+ }
+.logo1{
+    width: 50px;
+    height: 50px;
+    
+}
+.firstsection{
+
+   padding: 0 20px;
+   position: relative;
+   text-align: center;
+}
+ .firstsection h1{
+    
+    color: #00b39b;
+    font-weight: 100;
+  font-size: 40px;  
+
+}
+.secondsection {
+    display: flex;
+    justify-content:center;
+    
+    }
+   
+.secondsection p{
+    line-height:30px ;
+ width: 500px;
+     font-weight: 400;
+    color: #747474
+}
+.ooo{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+
+}
+.thirdsection .patient select{
+     color:white;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 30px;
+    font-size: large;
+}
+.patient{
+    padding: 30px;
+ background-color: #00b39b;
+ border-radius: 10px;
+overflow: hidden;
+height: 320px;
+display: flex;
+flex-direction: column;
+
+width: 320px;
+
+justify-content: space-between;
+}
+.patient h1{
+
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .3em 0;
+    }
+    .patient h2{
+        font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+     }
+.doctor{
+    padding: 30px;
+ background-color: #3d83df;
+ border-radius: 10px;
+overflow: hidden;
+height: 320px;
+display: flex;
+flex-direction: column;
+width: 320px;
+justify-content: space-between;
+}
+.doctor h1{
+
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .3em 0;
+    }
+    .doctor h2{
+        font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+     }
+     .thirdsection .doctor select{
+        color: #fff;
+         width: 100%;
+         background: transparent;
+         border: 0;
+         border-radius: 0;
+         padding: 0 2em 0 0;
+         -webkit-appearance: none;
+         outline: 0;
+         text-transform: none;
+         text-decoration: underline;
+         cursor: pointer;
+         padding: 30px;
+         font-size: large;
+          }
+     .clinics{
+        padding: 30px;
+     background-color:#1b2734 ;
+     border-radius: 10px;
+    overflow: hidden;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+       justify-content: space-between;
+    width: 320px;
+  
+    }
+    .clinics h1{
+    
+        font-size: 1.625em;
+        font-weight: 400;
+        color: #fff;
+        margin: .3em 0;
+        }
+        .clinics h2{
+            font-size: 1.5em;
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 0;
+        color: #fff;
+         }
+         .thirdsection .clinics select{
+           color: white
+           ;
+            width: 100%;
+            background: transparent;
+            border: 0;
+            border-radius: 0;
+            padding: 0 2em 0 0;
+            -webkit-appearance: none;
+            outline: 0;
+            text-transform: none;
+            text-decoration: underline;
+            cursor: pointer;
+            padding: 30px;
+            font-size: large;
+            
+             }
+     .pub{
+           display: flex;
+               justify-content: center;
+               height: fit-content;
+                
+             }
+             .pub h1{
+                color: #00b39b;
+                margin-right: 100px;
+                font-size: 30px;
+                font-weight: 100;
+             }
+             .brandlogo{
+              width: 800px;
+              height: fit-content;
+              margin-top: 20px;
+              
+                           
+             }
+           
+             .brandlogo .brand{
+                width: 150px;
+             }
+   
+             
+   .sectionstats{
+    background-color: #e5faf8;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 100px;
+   }
+   .leader{
+    background-color: white;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 250px;
+    font-size: .8125em;
+    border-radius: 5px;
+   }
+   .sectionstats div h2{
+    color: #00b39b;
+   
+   }
+   .sectionstats div p{
+    color: black;
+   }
+   .leadermain{
+    display: flex;
+    gap: 20px;
+   
+
+   }
+   .leader h4{
+    color: #00b39b;
+   }
+   .leader p{
+    color: black;
+   }
+   .leaderone{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+   
+   }
+   .leadertwo{ 
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    
+   }
+   .para{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+  .para div h1{
+    color: #00b39b;
+  }
+  .para div p{
+    color: black;
+  }
+ 
+   
+   .taswiraone{
+    width: 280px;
+    height: 280px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    
+   }
+   .taswiraone :hover{
+    zoom: 110%;
+   }
+.tsawersection{
+    padding: 20px;
+}
+.taswiraone div img{
+    width: 280px;
+    height: 200px;
+    
+}
+.warsaw{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+   
+} 
+
+
+.warsaw h3{
+color: #747474;
+}
+button{
+    background-color: #3d83df;
+    border: none;
+    border-radius: 4px;
+    width:100px;
+    height: 30px
+    ;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.tsawer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+.divjoinus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.divjoinus div h1{
+    color: #333;
+    font-weight:200px;
+}
+.divjoinus div button{
+    background-color: #3d83df;
+    border: none;
+    border-radius: 4px;
+    width:fit-content;
+    height: 35px
+    ;
+    color: #fff;
+    cursor: pointer;
+   
+}
+
+
+
+h6{
+    color: #747474;
+}
+span{
+    color: #3d83df;
+}
+
+
+.brandlogo img {
+    width: 100px;
+}
+
+svg path
+{
+ fill:gray;
+
+ }
+
+svg path:hover
+{
+ fill:#00b39b;
+
+ }
+  .divfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+ @media screen and (max-width:600px){
+    .divfooter {
+        flex-direction: column;
+            }
+            .divjoinus{
+                flex-direction: column;
+            }
+.leadermain{
+    flex-direction: column;
+    justify-content: center;
+}
+.tsawer{
+    flex-direction: column;
+    justify-items: center;
+}
+.warsaw{
+    flex-direction: column;
+    justify-items: center;
+ }
+ .patient{
+    flex-direction: column;
+    justify-items: center;
+ }
+ .clinics{
+    flex-direction: column;
+    justify-items: center;
+ }
+ .doctor{
+    flex-direction: column;
+    justify-items: center;
+ }
+.ooo{
+    flex-direction: column;
+    justify-items: center;
+ }
+.one{
+    flex-direction: column;
+    justify-items: center;
+}
+ .divmain{
+    flex-direction: column;
+    justify-items: center;
+ }
+ .dif {
+    flex-direction: column;
+    justify-items: center;
+ }
+ 
+  }
